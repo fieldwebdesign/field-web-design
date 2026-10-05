@@ -1,0 +1,17 @@
+{
+  "name": "field-design",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-04",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "field-web-design-reviews",
+      "database_id": "af184c96-14ef-4dfb-87ce-6bdf1868c294"
+    }
+  ]
+}
